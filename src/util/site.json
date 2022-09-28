@@ -3,7 +3,7 @@
     "title": "서강맛집탐방",
     "titleTemplate": "%s",
     "description": "서강대 맛집탐방 블로그",
-    "siteUrl": "sgtaste.ml",
+    "siteUrl": "https://sgtaste.netlify.app/",
     "image": "/assets/taste_blog_ico.svg",
     "iconimage": "/assets/taste_blog_ico.svg",
     "twitterUsername": "@stackrole"
