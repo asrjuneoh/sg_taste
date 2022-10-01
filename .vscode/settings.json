@@ -3,5 +3,5 @@
   "editor.tabSize": 2,
   "html.format.wrapLineLength": 80,
   "editor.wordWrap": "on",
-  "MarkdownPaste.path": "${fileDirname}/assets"
+  "MarkdownPaste.path": "${fileDirname}/images/"
 }
