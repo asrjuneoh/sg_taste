@@ -6,6 +6,7 @@ import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Utterances from '../components/utterances'
 
 const styles = {
   "article blockquote": {
@@ -114,6 +115,7 @@ const Post = ({ data, pageContext }) => {
         />
       </article>
       {(previous || next) && <Pagination {...props} />}
+      <Utterances />
     </Layout>
   )
 }
