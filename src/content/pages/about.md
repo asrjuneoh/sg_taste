@@ -1,7 +1,7 @@
 ---
 template: about-page
 slug: /about
-title: About Foundation
+title: 서강맛집탐방
 ---
 ## 매우 주관적
 
