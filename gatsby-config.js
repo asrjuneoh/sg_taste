@@ -94,8 +94,7 @@ module.exports = {
         trackingId: settings.ga,
       },
     },
-    `gatsby-plugin-sitemap`,
-    `gatsby-plugin-advanced-sitemap`,
+    `gatsby-plugin-sitemap`,    
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
