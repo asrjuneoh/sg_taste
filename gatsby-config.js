@@ -95,11 +95,12 @@ module.exports = {
       },
     },
     `gatsby-plugin-sitemap`,
+    `gatsby-plugin-advanced-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `sgataste`,
-        short_name: `sgt`,
+        short_name: `sgataste`,
         start_url: `/`,
         background_color: `#f7f0eb`,
         theme_color: `#b11116`,
