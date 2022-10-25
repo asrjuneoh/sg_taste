@@ -184,7 +184,7 @@
   .post-content {
     margin-top: 16px;
   }
-  @media (max-width: $breakpoint-md) {
+  @media (max-width: calc($breakpoint-md*0.8)) {
     padding: 0;
     .post-content {
       padding: 16px;
