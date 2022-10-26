@@ -95,7 +95,16 @@ module.exports = {
         trackingId: settings.ga,
       },
     },
-    `gatsby-plugin-sitemap`,    
+    // `gatsby-plugin-sitemap`,    
+    `gatsby-plugin-advanced-sitemap`,
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://sgtaste.netlify.app/',
+        sitemap: 'https://sgtaste.netlify.app/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }],
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
